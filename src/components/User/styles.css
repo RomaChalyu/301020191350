@@ -81,9 +81,8 @@
     margin: -10px 5px 5px 120px;
 }
 .user__services__text{
+    margin: 7px 6% 5px 0;
     text-align: end;
-    margin-bottom: 5px;
-    margin-right: 6%;
 }
 .user__services__wrapp{
     padding: 10px 0;
@@ -92,6 +91,7 @@
     
 }
 .user__services__item{
+    align-items: center;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -99,6 +99,7 @@
     align-items: center;
 }
 .services__item_position{
+    height: 100%;
     position: absolute;
     height: 24px;
     z-index: -1;
@@ -117,6 +118,7 @@
     background: #ace2f8;
 }
 .services__item__name{
+    max-width: 80%;
     margin-left: 5px;
 }
 .services__item__count{

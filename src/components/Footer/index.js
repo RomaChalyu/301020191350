@@ -51,7 +51,7 @@ class Footer extends React.Component {
 
   checkKeystroke = e => {
     if (e.ctrlKey && e.keyCode === 13) {
-      this.addComment()
+      this.addNewComment()
     }
   }
 
